@@ -86,7 +86,6 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   addToCart: (price, quantity) => dispatch(handleCartItem(price, quantity)),
-  // addItems: (price) => dispatch(handleItems(price)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(CardItemModal);

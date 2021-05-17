@@ -18,12 +18,14 @@ const Footer = () => (
           <img src={ softcom } alt="softcom" />
         </NavLink>
       </NavItem>
+
       <NavItem>
         <NavLink className="external" href="#">Politicas de Privacidade</NavLink>
       </NavItem>
       <NavItem>
         <NavLink className="external" href="#">Termos de Uso</NavLink>
       </NavItem>
+
       <NavItem>
         <NavLink
           href="#"
