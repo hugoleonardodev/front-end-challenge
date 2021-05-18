@@ -78,7 +78,7 @@ describe('MainSearchInput component with no results', () => {
     // expect(searchBtnClicked[0]).toHaveClass('btn btn-secondary');
   });
 
-  it('Text input query validation', async () => {
+  it('should fetch api when click on `Pesquisar` button', async () => {
     const apiResponse = Promise.resolve({
       json: () => Promise.resolve(mockedQuery),
       ok: true,

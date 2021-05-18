@@ -11,7 +11,7 @@ const Footer = () => (
     <Nav tabs>
       <NavItem>
         <NavLink
-          href="http://softcom.com.br/"
+          href="https://softcomtecnologia.com.br/"
           className="external"
           target="_blank"
         >
@@ -22,6 +22,7 @@ const Footer = () => (
       <NavItem>
         <NavLink className="external" href="#">Politicas de Privacidade</NavLink>
       </NavItem>
+
       <NavItem>
         <NavLink className="external" href="#">Termos de Uso</NavLink>
       </NavItem>
